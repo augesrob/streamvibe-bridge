@@ -1,0 +1,16 @@
+{
+  "name": "streamvibe-bridge",
+  "version": "2.0.0",
+  "description": "StreamVibe TikTok Live Bridge — multi-user hosted WebSocket server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^1.5.8",
+    "ws": "^8.17.0"
+  }
+}
